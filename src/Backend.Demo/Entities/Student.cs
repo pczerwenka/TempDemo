@@ -7,12 +7,13 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Backend.Demo.Entities
+{ 
 
     [Table("Students")]
-    class Student
+    public class Student
     {
         [Key]
-        public int StudentId { get; set; }
+        public int StudnetId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
     }
