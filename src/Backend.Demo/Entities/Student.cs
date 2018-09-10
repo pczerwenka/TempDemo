@@ -13,7 +13,7 @@ namespace Backend.Demo.Entities
     public class Student
     {
         [Key]
-        public int StudnetId { get; set; }
+        public int StudentId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
     }
